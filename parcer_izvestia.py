@@ -1,7 +1,7 @@
 import requests
 run = True
 id = 1101000
-max_id=1135300
+max_id=1101050
 while run and id < max_id:
     print(id)
     res = requests.get(f"https://iz.ru/{id}")
